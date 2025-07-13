@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(to right, #2c2c2c, #595959, #000000);
+}
+.img-fluid{
+    /* border: 0.3rem solid #fff; */
+    margin-top:-2rem ;
+    
+    
+}
+
+ .square-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      /* border: 2px solid #000; */
+      margin-top: -3rem;
+      border-radius: 3rem;
+      
+ }
+
+  
+    /* ============================4images---------------- */
+        .square-box {
+      position: relative;
+      width: 100%;
+      padding-top: 100%;
+      
+    }
+
+    .square-box img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+
+    /* ================video1== */
+    
